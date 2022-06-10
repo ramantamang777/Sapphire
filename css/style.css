@@ -359,6 +359,19 @@ main{
     gap: 1rem;
 }
 
+.rate-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.rate-icons img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
 /* ratings ends */
 
 
@@ -533,15 +546,6 @@ main{
     list-style-type: none;
     padding: 0.5rem 0rem 0rem 1rem;
 }
-
-
-
-
-
-
-
-
-
 
 /* ourwork--------------------------- */
 
