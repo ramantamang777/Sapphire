@@ -93,9 +93,12 @@ nav{
     height: 26rem;
     width: 100%;
     position: relative;
-    background-image: url('../images/pp.jpg');
+}
+
+.background img{
+    height: 26rem;
+    width: 100%;
     background-size: cover;
-    background-position: fixed;
     background-repeat: no-repeat;
 }
 
@@ -227,14 +230,19 @@ main{
     height: 26rem;
     width: 100%;
     position: relative;
-    background-image: url('../images/pp.jpg');
+}
+
+.background-image img{
+    height: 26rem;
+    width: 100%;
     background-size: cover;
-    background-position: fixed;
     background-repeat: no-repeat;
 }
 
+
 .aboutus{
     position: absolute;
+    top: 0%;
     font-size: 1.2rem;
     height: 26rem;
     width: 100%;
