@@ -538,6 +538,11 @@ main{
 
 
 
+
+
+
+
+
 /* ourwork--------------------------- */
 
 .ourwork{
@@ -1132,6 +1137,17 @@ footer h1{
         height: 45rem;
         width: 40rem;
     }
+
+    .contactinfo {
+        gap: 1rem;
+    }
+    .contactinfo li{
+       font-size: 0.9rem;
+    }
+
+    .contactinfo h1{
+        font-size: 1.1rem;
+    }
 }
 
 @media only screen and (max-width : 930px)
@@ -1220,6 +1236,23 @@ footer h1{
     }
     .col-door h1{
         font-size: 1.3rem;
+    }
+    .contactform{
+        width: 70%;
+        padding: 2rem;
+        gap: 1rem;
+    }
+    .contactinfo {
+        padding: 1.2rem 0rem 1.2rem 0rem;
+        gap: 1rem;
+        width: 30%;
+    }
+    .contactinfo li{
+       font-size: 0.9rem;
+    }
+
+    .contactinfo h1{
+        font-size: 1.1rem;
     }
 }
 
@@ -1627,6 +1660,23 @@ footer h1{
         height: 38rem;
         width: 32rem;
     }
+    .contactform{
+        width: 70%;
+        padding: 2rem;
+        gap: 1rem;
+    }
+    .contactinfo {
+        padding: 1.2rem 0rem 1.2rem 0rem;
+        gap: 1rem;
+        width: 30%;
+    }
+    .contactinfo li{
+       font-size: 0.9rem;
+    }
+
+    .contactinfo h1{
+        font-size: 1.1rem;
+    }
 }
 @media only screen and (max-width: 655px)
 {
@@ -1756,6 +1806,14 @@ footer h1{
     .content-images img{
         height: 34rem;
         width: 30rem;
+    }
+    .contactform{
+        width: 100%;
+        padding: 2rem;
+        gap: 1rem;
+    }
+    .contactinfo {
+        display: none;
     }
 }
 
@@ -2447,4 +2505,5 @@ footer h1{
         color: rgb(25, 149, 25);
     }
 }
+
 
